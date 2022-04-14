@@ -1,0 +1,163 @@
+body {
+  background-color: #201636;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.screen1 {
+  display: flex;
+  /* margin-top: 238px; */
+  margin-left: 60px;
+}
+
+.left-side {
+}
+
+.right-side {
+  margin: 166px 0 0 -356px;
+  width: 682px;
+  height: 412px;
+}
+
+.header {
+  text-transform: uppercase;
+  padding-bottom: 90px;
+}
+
+.section-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.purpose {
+  width: 670px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50px;
+  color: #211637;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 15px;
+  line-height: 18px;
+  margin: 62px 0 25px 0;
+}
+
+.startStudy {
+  display: flex;
+  align-items: center;
+}
+
+.wave-line {
+  width: 92px;
+  height: 24px;
+  padding: 0 15px 0 30px;
+}
+
+.registration {
+  width: 300px;
+  height: 56px;
+  background-color: #f09f0c;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1f1f1f;
+}
+
+/* section2 */
+
+.screen2 {
+  margin-left: 60px;
+}
+
+.screen2-conteiner {
+  margin-left: 374px;
+  display: flex;
+}
+
+.skill1,
+.skill2,
+.skill3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  width: 370px;
+}
+
+.skill2 {
+  padding: 0 30px 0 30px;
+}
+
+/* section3 */
+
+.screen3 {
+  margin-left: 60px;
+}
+
+.header3-conteiner {
+  margin-left: 374px;
+  width: 1170px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 44px;
+  margin-top: 106px;
+}
+
+.header3-text {
+  margin: 0;
+}
+
+.header-span {
+  color: #f09f0c;
+}
+
+.screen3-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.screen3-left-side {
+}
+
+.screen3-left-side-1 {
+  position: absolute;
+  z-index: 1;
+  width: 600px;
+  margin-left: 166px;
+}
+.screen3-left-side-2 {
+  position: absolute;
+  z-index: 2;
+  margin: -90px 0 0px -15px;
+}
+
+.screen3-left-side-3 {
+  position: absolute;
+  z-index: 3;
+  margin: 0px 0px 0px 240px;
+}
+
+.screen3-left-side-4 {
+  position: absolute;
+  z-index: 4;
+  margin: 496px 0 0px 213px;
+}
+
+.list {
+  list-style-image: url(/img/004-lesson/Arrow.png);
+  margin: 0 0 0 868px;
+  width: 520px;
+  height: 598px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  margin-top: 68px;
+  position: absolute;
+}

@@ -1,0 +1,45 @@
+<!-- ДЗ № 2
+- Карта зображення та таблиця.
+Необхідно створити карту зображення України (про карту https://w3schoolsua.github.io/html/html_images_imagemap.html)
+малюнок який використовувати як карту :
+https://uahistory.co/pidruchniki/gilberg-geography-8-class-2021/gilberg-geography-8-class-2021.files/image025.jpg
+ТЗ
+1. Натискаючи на область користувач повинент перейти з нової вкоадки в вікіпедію на публіувцію з статтею про досягненя
+області
+2. При наведенні на кожну область має буди підказка з назвою області та відстаню від Києва
+- Зробити використовуючи таблиці HTML таблицю https://dialog.su/wp-content/uploads/2019/06/230516_66.jpg -->
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhilipSevene-lessons</title>
+</head>
+<body>
+
+    <div style="border-bottom: 1px solid red;">
+        <select onchange='location.href=this.value'>
+            <option value="001_hWork(form).html">001_hWork</option>
+            <option value="#" selected>002_hWork</option>
+            <option value="003_hWork.html">003_hWork</option>
+            <option value="004_hWork.html">004_hWork</option>
+            <option value="005_hWork.html">005_hWork</option>
+        </select>
+    </div>
+
+
+    <img src="/img/002-lesson/image025.jpg" alt="Карта Украины" usemap="#workmap">
+
+    <map name="workmap">
+        <!-- Ужгород -->
+        <area shape="poly" coords="9,195,28,165,90,221,90,228,24,214" alt="Ужгород" title="Ужгород" target="_blank" href="https://ru.wikipedia.org/wiki/%D0%A3%D0%B6%D0%B3%D0%BE%D1%80%D0%BE%D0%B4">
+        <!-- Крым -->
+        <area shape="circle" coords="436,381,45" alt="Крым" title="Крым" target="_blank" href="https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D1%8B%D0%BC">     
+         <!-- Киев -->
+        <area shape="rect" coords="268,75,324,156" alt="Киев" title="Киев" href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B8%D0%B5%D0%B2">
+    </map>
+
+</body>
+</html>
